@@ -28,6 +28,18 @@
             SetPropertyValueButtonList(value, "ForeColor")
         End Set
     End Property
+    Private Property PrivDataSource As Object
+    Public Property DataSource As Object
+        Get
+            Return PrivDataSource
+        End Get
+        Set(value As Object)
+            PrivDataSource = value
+            CastDataSource(0)
+        End Set
+    End Property
+    Private Property ListDataSource As List(Of Object) = PrivDataSource
+    Private Property CurrentGroupDisplayed As Integer = 0
 #End Region
 #Region "Events"
     Private Sub Botonera_Menus_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
@@ -63,6 +75,24 @@
                     'Just let it go, we tried...
                 End Try
             Next
+        Next
+    End Sub
+    Private Sub CastDataSource(NumberGroup As Integer)
+        Dim GroupCalc As Integer = NumberGroup * 6
+        Dim i As Integer = 1 + GroupCalc
+
+        For Each item In ListDataSource
+            If i = 7 + GroupCalc Then Exit For
+
+            Dim _i As Integer = 1
+            For Each button As Button In Me.Controls
+                If _i + GroupCalc = i And _i < 7 And button.Name <> "GoBack_btn" And button.Name <> "GoNext_Btn" Then
+                    button.Text = item.name
+                End If
+                _i += 1
+            Next
+
+            i += 1
         Next
     End Sub
 #End Region
