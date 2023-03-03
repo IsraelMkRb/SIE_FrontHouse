@@ -34,11 +34,9 @@
             Return PrivDataSource
         End Get
         Set(value As Object)
-            PrivDataSource = value
-            CastDataSource(0)
+            CastDataSource(value, 0)
         End Set
     End Property
-    Private Property ListDataSource As List(Of Object) = PrivDataSource
     Private Property CurrentGroupDisplayed As Integer = 0
 #End Region
 #Region "Events"
@@ -77,11 +75,14 @@
             Next
         Next
     End Sub
-    Private Sub CastDataSource(NumberGroup As Integer)
-        Dim GroupCalc As Integer = NumberGroup * 6
-        Dim i As Integer = 1 + GroupCalc
+    Private Sub CastDataSource(value As Object, NumberGroup As Integer)
+        PrivDataSource = value
 
-        For Each item In ListDataSource
+        If PrivDataSource Is Nothing Then Exit Sub
+        Dim GroupCalc As Integer = NumberGroup * 6
+        Dim i As Integer = 2 + GroupCalc
+
+        For Each item In PrivDataSource
             If i = 7 + GroupCalc Then Exit For
 
             Dim _i As Integer = 1
