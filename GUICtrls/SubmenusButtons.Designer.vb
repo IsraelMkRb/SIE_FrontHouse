@@ -39,116 +39,118 @@ Partial Class Botonera_Menus
         '
         'Btn_Position_6
         '
+        Me.Btn_Position_6.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_6.FlatAppearance.BorderSize = 0
         Me.Btn_Position_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_6.Location = New System.Drawing.Point(771, 4)
-        Me.Btn_Position_6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_6.Location = New System.Drawing.Point(578, 3)
         Me.Btn_Position_6.Name = "Btn_Position_6"
-        Me.Btn_Position_6.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_6.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_6.TabIndex = 2
-        Me.Btn_Position_6.Text = "6"
-        Me.Btn_Position_6.UseVisualStyleBackColor = True
+        Me.Btn_Position_6.UseVisualStyleBackColor = False
+        Me.Btn_Position_6.Visible = False
         '
         'Btn_Position_5
         '
+        Me.Btn_Position_5.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_5.FlatAppearance.BorderSize = 0
         Me.Btn_Position_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_5.Location = New System.Drawing.Point(644, 4)
-        Me.Btn_Position_5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_5.Location = New System.Drawing.Point(483, 3)
         Me.Btn_Position_5.Name = "Btn_Position_5"
-        Me.Btn_Position_5.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_5.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_5.TabIndex = 3
-        Me.Btn_Position_5.Text = "5"
-        Me.Btn_Position_5.UseVisualStyleBackColor = True
+        Me.Btn_Position_5.UseVisualStyleBackColor = False
+        Me.Btn_Position_5.Visible = False
         '
         'Btn_Position_4
         '
+        Me.Btn_Position_4.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_4.FlatAppearance.BorderSize = 0
         Me.Btn_Position_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_4.Location = New System.Drawing.Point(516, 4)
-        Me.Btn_Position_4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_4.Location = New System.Drawing.Point(387, 3)
         Me.Btn_Position_4.Name = "Btn_Position_4"
-        Me.Btn_Position_4.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_4.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_4.TabIndex = 4
-        Me.Btn_Position_4.Text = "4"
-        Me.Btn_Position_4.UseVisualStyleBackColor = True
+        Me.Btn_Position_4.UseVisualStyleBackColor = False
+        Me.Btn_Position_4.Visible = False
         '
         'Btn_Position_3
         '
+        Me.Btn_Position_3.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_3.FlatAppearance.BorderSize = 0
         Me.Btn_Position_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_3.Location = New System.Drawing.Point(388, 4)
-        Me.Btn_Position_3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_3.Location = New System.Drawing.Point(291, 3)
         Me.Btn_Position_3.Name = "Btn_Position_3"
-        Me.Btn_Position_3.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_3.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_3.TabIndex = 5
-        Me.Btn_Position_3.Text = "3"
-        Me.Btn_Position_3.UseVisualStyleBackColor = True
+        Me.Btn_Position_3.UseVisualStyleBackColor = False
+        Me.Btn_Position_3.Visible = False
         '
         'Btn_Position_2
         '
+        Me.Btn_Position_2.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_2.FlatAppearance.BorderSize = 0
         Me.Btn_Position_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_2.Location = New System.Drawing.Point(260, 4)
-        Me.Btn_Position_2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_2.Location = New System.Drawing.Point(195, 3)
         Me.Btn_Position_2.Name = "Btn_Position_2"
-        Me.Btn_Position_2.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_2.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_2.TabIndex = 6
-        Me.Btn_Position_2.Text = "2"
-        Me.Btn_Position_2.UseVisualStyleBackColor = True
+        Me.Btn_Position_2.UseVisualStyleBackColor = False
+        Me.Btn_Position_2.Visible = False
         '
         'Btn_Position_1
         '
+        Me.Btn_Position_1.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Btn_Position_1.FlatAppearance.BorderSize = 0
         Me.Btn_Position_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_Position_1.Location = New System.Drawing.Point(132, 4)
-        Me.Btn_Position_1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Btn_Position_1.Location = New System.Drawing.Point(99, 3)
         Me.Btn_Position_1.Name = "Btn_Position_1"
-        Me.Btn_Position_1.Size = New System.Drawing.Size(120, 89)
+        Me.Btn_Position_1.Size = New System.Drawing.Size(90, 72)
         Me.Btn_Position_1.TabIndex = 7
-        Me.Btn_Position_1.Text = "1"
-        Me.Btn_Position_1.UseVisualStyleBackColor = True
+        Me.Btn_Position_1.UseVisualStyleBackColor = False
+        Me.Btn_Position_1.Visible = False
         '
         'GoBack_btn
         '
+        Me.GoBack_btn.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.GoBack_btn.Enabled = False
         Me.GoBack_btn.FlatAppearance.BorderSize = 0
         Me.GoBack_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GoBack_btn.Image = CType(resources.GetObject("GoBack_btn.Image"), System.Drawing.Image)
-        Me.GoBack_btn.Location = New System.Drawing.Point(4, 4)
-        Me.GoBack_btn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GoBack_btn.Location = New System.Drawing.Point(3, 3)
         Me.GoBack_btn.Name = "GoBack_btn"
-        Me.GoBack_btn.Size = New System.Drawing.Size(120, 89)
+        Me.GoBack_btn.Size = New System.Drawing.Size(90, 72)
         Me.GoBack_btn.TabIndex = 9
-        Me.GoBack_btn.UseVisualStyleBackColor = True
+        Me.GoBack_btn.UseVisualStyleBackColor = False
         '
         'GoNext_Btn
         '
+        Me.GoNext_Btn.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.GoNext_Btn.Enabled = False
         Me.GoNext_Btn.FlatAppearance.BorderSize = 0
         Me.GoNext_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GoNext_Btn.Image = CType(resources.GetObject("GoNext_Btn.Image"), System.Drawing.Image)
-        Me.GoNext_Btn.Location = New System.Drawing.Point(899, 4)
-        Me.GoNext_Btn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GoNext_Btn.Location = New System.Drawing.Point(674, 3)
         Me.GoNext_Btn.Name = "GoNext_Btn"
-        Me.GoNext_Btn.Size = New System.Drawing.Size(120, 89)
+        Me.GoNext_Btn.Size = New System.Drawing.Size(90, 72)
         Me.GoNext_Btn.TabIndex = 1
-        Me.GoNext_Btn.UseVisualStyleBackColor = True
+        Me.GoNext_Btn.UseVisualStyleBackColor = False
         '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HolaToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(111, 28)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(100, 26)
         '
         'HolaToolStripMenuItem
         '
         Me.HolaToolStripMenuItem.Name = "HolaToolStripMenuItem"
-        Me.HolaToolStripMenuItem.Size = New System.Drawing.Size(110, 24)
+        Me.HolaToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
         Me.HolaToolStripMenuItem.Text = "Hola"
         '
         'Botonera_Menus
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.GoBack_btn)
         Me.Controls.Add(Me.Btn_Position_1)
@@ -158,9 +160,8 @@ Partial Class Botonera_Menus
         Me.Controls.Add(Me.Btn_Position_5)
         Me.Controls.Add(Me.Btn_Position_6)
         Me.Controls.Add(Me.GoNext_Btn)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Botonera_Menus"
-        Me.Size = New System.Drawing.Size(1023, 96)
+        Me.Size = New System.Drawing.Size(767, 78)
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
